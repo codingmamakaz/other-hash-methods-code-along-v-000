@@ -9,5 +9,7 @@ groceries = {
 }
 
 def get_the_values(groceries)
-  groceries.join.values
+  new_array = []
+  new_array << groceries.values.join
+  new_array
 end
